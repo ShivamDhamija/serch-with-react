@@ -1,0 +1,36 @@
+body{
+    margin:0;
+    background-color: #d3d3d3;
+  }
+  
+  #root{
+    width:50%;
+    display: flex;
+    margin: 100px auto;
+    flex-direction: column;
+  }
+  
+  .container{
+    text-align: left;
+    border:2px solid black;
+    border-spacing:0;
+    font-size: 1.1rem;
+    overflow:scroll;
+  }
+  
+  td,th{
+    padding:15px 20px!important;
+  }
+  
+  tr:nth-child(even){
+    background-color: #cacace;
+  }
+  
+  th{
+    background-color: #f1f1f1;
+  }
+  
+  .serach-box{
+    padding:10px 20px;
+    font-size: 1.1rem;
+  }
